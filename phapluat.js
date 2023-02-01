@@ -435,7 +435,7 @@ for (let i = 0; i < 100; i++) {
 
 	for (let k = 0; k < inputs.length; k++) {
 		if (list[i].querySelectorAll('input')[k].value == ans.value) {
-			list[i].querySelectorAll('input')[k].checked = true;
+			list[i].querySelectorAll('input')[k].click();
 		}
 	}
 }
