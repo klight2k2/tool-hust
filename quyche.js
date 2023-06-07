@@ -499,6 +499,14 @@ let listkey = [
     key: "Sinh viên bị cảnh cáo học tập mức 2 thì được đăng ký tối đa và tối thiểu bao nhiêu tín chỉ trong một học kỳ chính",
     value: "Tối đa 14 tín chỉ và tối thiểu 8 tín chỉ cho một học kỳ chính",
   },
+  {
+    key:"Trong bộ quy tắc văn hóa giao tiếp trong Nhà trường và môi trường mạng đối với sinh viên, học viên và nghiên cứu sinh, quy tắc số 4 liên quan",
+    value:"Trang phục phù hợp với môi trường sư phạm; đeo thẻ sinh viên/học viên khi đến trường."
+  },
+  {
+    key:"Trong bộ quy tắc văn hóa giao tiếp trong Nhà trường và môi trường mạng đối với sinh viên, học viên và nghiên cứu sinh, quy tắc số 6 liên quan đến",
+    value:"Có ý thức, trách nhiệm bảo vệ danh tiếng và tài sản của Nhà trường."
+  }
 ];
 let listQues=document.querySelectorAll('[data-automation-id="questionItem"]')
 listQues.forEach(ques=>{
