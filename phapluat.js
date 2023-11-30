@@ -1,4 +1,4 @@
-const listkey =[
+let listkey =[
     {
         "key": "Anh H điều khiển xe máy điện chạy trong khu vực thị trấn, với tốc độ cho phép, để đảm bảo an toàn giao thông, anh H phải chủ động giữ khoảng cách an toàn phù hợp với xe chạy liền trước xe của mình",
         "value": "Với khoảng cách an toàn thích hợp và nhỏ hơn trị số ghi trên biển báo."
@@ -836,7 +836,7 @@ let keys=[
     },
    
 ]
-listKey=[...listKey,...keys]
+listkey=[...listkey,...keys]
 let listQues=document.querySelectorAll('[data-automation-id="questionItem"]')
 listQues.forEach(ques=>{
     ques.querySelectorAll('[data-automation-id="choiceItem"]').forEach(ans=>{
