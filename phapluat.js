@@ -836,7 +836,7 @@ let keys=[
     },
    
 ]
-listkey=[...listkey,...keys]
+listkey=[...listkey,...keys.map(item=>{key:item.key.replace(/^\d+\.\s/, ''),value:item.value})]
 let listQues=document.querySelectorAll('[data-automation-id="questionItem"]')
 listQues.forEach(ques=>{
     ques.querySelectorAll('[data-automation-id="choiceItem"]').forEach(ans=>{
